@@ -1,0 +1,27 @@
+:root {
+  --dark: #2c3e28;
+  --darker: #263622;
+  --green: #5c9a20;
+  --green-dark: #4b8118;
+  --bg: #f5f6f1;
+  --line: #dfe3d6;
+  --text: #2c3a29;
+  --muted: #7a8576;
+  --red: #c0392b;
+  --amber: #a56a12;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  line-height: 1.45;
+  color: var(--text);
+  background: var(--bg);
+}
+h1, h2, h3, p { margin: 0; }
+a { color: var(--green-dark); }
+button, input, select { font-family: inherit; font-size: inherit; }
+.muted { color: var(--muted); }
+.num { text-align: right; }
+.low { color: var(--red); font-weight: 800; }
